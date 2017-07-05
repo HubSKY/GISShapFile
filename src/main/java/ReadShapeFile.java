@@ -158,6 +158,7 @@ public class ReadShapeFile {
         }
         System.out.println("total:"+count);
         System.out.println("total:"+count2);
+        System.out.println();
 
     }
 }
