@@ -142,7 +142,7 @@ public class ReadShapeFile {
 
         int count=0;
         int count2=0;
-        HashMap<String, ArrayList<Road>> roadmap12 = readSHP("E:\\北斗中心相关\\吴弘伟工作相关\\guandong_shp\\guangdong2014shp_new\\guangdong_polyline.shp");
+        HashMap<String, ArrayList<Road>> roadmap12 = readSHP("E:\\guandong_shp\\guangdong2014shp_new\\guangdong_polyline.shp");
         Iterator iter = roadmap12.entrySet().iterator();
         while (iter.hasNext()) {
             Map.Entry entry = (Map.Entry) iter.next();
